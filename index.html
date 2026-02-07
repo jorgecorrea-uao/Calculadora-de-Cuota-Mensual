@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/main.css">
+    <script type="module" src="Scripts/main.js"></script>
+    <title>FrontEnd Estatico</title>
+</head>
+<body>
+    <head>
+        <h1>Calculadora de Cuota Mensual</h1>
+    </head>
+    <main>
+        <section class="laInfo">
+            <div>
+                <table class="datos_entrada">
+                    <caption>Datos del Préstamo</caption>  
+                    <tr>
+                        <td>Nombre</td>
+                        <td>
+                            <input type="text" value="" id="elNombre" name="nombre">
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td>Monto del Préstamo</td>
+                        <td>
+                            <input type="number" value="" id="elMonto" placeholder="Ej: 1000000">
+                        </td>
+                    </tr>                     
+                    <tr>
+                        <td>Número de Meses</td>
+                        <td>
+                            <input type="number" value="" id="elNMeses" placeholder="Ej: 12">
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>Tasa de Interés</td>
+                        <td>
+                            <input type="number" value="" id="elInteres" placeholder="Ej: 0.15">
+                        </td>
+                    </tr>                           
+                </table>
+            </div>
+            <div class="error" id="error"></div>
+            <div>
+                <textarea id="laRespuesta" readonly>Salida---</textarea>
+            </div>
+            <div>
+                <button id="ejecutar">Calcular</button> 
+                <button id="recordar">Limpiar</button>
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <div class="coloreado">
+            Calculadora de Cuota Mensual
+        </div>
+    </footer>     
+</body>
+</html>
+
+
+
+
+
