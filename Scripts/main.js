@@ -61,10 +61,8 @@ function ingresarPersona(){
         }
 }
 
-<<<<<<< HEAD
-=======
+
 // Limpia los campos del formulario y el área de respuesta
->>>>>>> 6f38a86 (Tercer commit: nuevas funciones y botones de reportes.)
 function limpiarFormulario(){
     document.getElementById("elNombre").value = '';
     document.getElementById("elMonto").value = '';
